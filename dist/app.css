@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 header {
@@ -198,4 +198,43 @@ header p::before {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+#experts {
+  background-color: #1f1e38;
+  padding-top: 300px;
+}
+#experts .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#experts .container h2 {
+  width: 80%;
+}
+#experts .container p {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#experts .container p::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #39ffbf;
+  margin-right: 15px;
+}
+#experts .container .carusel__arrow {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+#experts .container .carusel__arrow .arrow i {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  margin-right: 5px;
 }
