@@ -1,0 +1,67 @@
+#consultants{
+    position: relative;
+    overflow: hidden;
+    .container{
+        width: $container_small;
+        margin: auto;
+        padding: 100px 0;
+
+        h3{
+            display: flex;
+            align-items: center;
+            color: $cons_title_color;
+        }
+        h3::after{
+            @include line_style_element;
+            height: 3px;
+            position: absolute;
+            left: 670px;
+            width: 100%;
+        }
+
+        .consultants__possibility{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .consultants__box{
+            display: flex;
+            width: 30%;
+            margin-top: 50px;
+
+        &:nth-child(odd){
+            margin-right: 400px;
+        }
+            
+            .consultants__box__logo{
+                display: flex;
+                align-items: center;
+                margin-right: 30px;
+                width: 200px;
+                height: 60px;
+                background-color: $element_bg_color;
+                border-radius: 50%;
+                i{
+                    margin: auto;
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+            .consultants__text{
+                margin-top: 10px;
+
+                h4{
+                    margin-bottom: 15px;
+                    color: $cons_title_color;
+                }
+                p{
+                    color: $cons_par_color;
+                    font-size: 14px;
+                }
+            }
+        }
+        
+        
+    }
+}
