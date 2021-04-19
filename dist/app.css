@@ -1,3 +1,27 @@
-body {
-  background-color: red;
+h1, h2 {
+  color: #ffffff;
+}
+
+header {
+  background-color: #1f1e38;
+}
+header .container {
+  width: 90%;
+  margin: auto;
+}
+header .logo img {
+  height: 40px;
+}
+header p {
+  color: white;
+}
+
+.button {
+  border: none;
+  width: 115px;
+  padding: 10px 0;
+}
+
+.primary__button {
+  background-color: #39ffbf;
 }

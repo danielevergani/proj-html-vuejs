@@ -1,0 +1,21 @@
+
+
+header{
+    
+    background-color: $main_bg_color;
+
+    .container{
+        width: $container_big;
+        margin: auto;
+    }
+    .logo{
+
+        img{
+            height: 40px;
+        }
+    }
+
+    p{
+        color: white;
+    }
+}
