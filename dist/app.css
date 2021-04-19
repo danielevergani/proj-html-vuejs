@@ -16,6 +16,10 @@ h1 {
   font-size: 80px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 header {
   position: relative;
   height: 800px;
@@ -54,12 +58,17 @@ header p::before {
 
 .button {
   border: none;
-  width: 115px;
-  padding: 10px 0;
+  width: 140px;
+  padding: 20px 0;
 }
 
 .primary__button {
   background-color: #39ffbf;
+}
+
+.secondary__button {
+  background-color: #f00e2e;
+  color: white;
 }
 
 #consultants {
@@ -69,7 +78,7 @@ header p::before {
 #consultants .container {
   width: 65%;
   margin: auto;
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
 }
 #consultants .container h3 {
   display: flex;
@@ -94,11 +103,11 @@ header p::before {
 }
 #consultants .container .consultants__box {
   display: flex;
-  width: 30%;
+  width: 35%;
   margin-top: 50px;
 }
 #consultants .container .consultants__box:nth-child(odd) {
-  margin-right: 400px;
+  margin-right: 350px;
 }
 #consultants .container .consultants__box .consultants__box__logo {
   display: flex;
@@ -124,4 +133,69 @@ header p::before {
 #consultants .container .consultants__box .consultants__text p {
   color: #aaaaaa;
   font-size: 14px;
+}
+
+#strategy {
+  display: flex;
+  background-color: #1f1e38;
+  position: relative;
+}
+#strategy .strategy__img {
+  width: 60%;
+}
+#strategy .strategy__img img {
+  width: 100%;
+}
+#strategy .strategy__text {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%);
+  width: 40%;
+  padding: 0 120px 0 50px;
+  color: #ffffff;
+}
+#strategy .strategy__text h2 {
+  padding: 20px 0;
+}
+#strategy .strategy__text p:first-child {
+  display: flex;
+  align-items: center;
+}
+#strategy .strategy__text p:first-child:before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #39ffbf;
+  margin-right: 15px;
+}
+#strategy .strategy__text .strategy__para {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+#strategy .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: -180px;
+  width: 80%;
+  height: 250px;
+  background-color: #39ffbf;
+  color: #1f1e38;
+}
+#strategy .container h3 {
+  width: 30%;
+  font-size: 30px;
+  margin-right: 100px;
+}
+#strategy .container p {
+  width: 30%;
+}
+#strategy .container button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

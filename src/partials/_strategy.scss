@@ -1,0 +1,70 @@
+#strategy{
+    display: flex;
+    background-color: $main_bg_color;
+    position: relative;
+    .strategy__img{
+        width: 60%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .strategy__text{
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translateY(-50%);
+        width: 40%;
+        padding: 0 120px 0 50px;
+        color: $main_title_color;
+
+        h2{
+            padding: 20px 0;
+        }
+
+        p:first-child{
+            display: flex;
+            align-items: center;
+
+        }
+        p:first-child:before{
+            @include line_style_element;
+            margin-right: 15px;
+        }
+
+        .strategy__para{
+            font-size: 14px;
+            color: $par_color;
+        }
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        bottom: -180px;
+        width: $container_big;
+        height: 250px;
+        background-color: $second_bg_color;
+        color: $cons_title_color;
+
+        h3{
+            width: 30%;
+            font-size: 30px;
+            margin-right: 100px;
+        }
+
+        p{
+            width: 30%;
+        }
+
+        button{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
