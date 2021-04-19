@@ -16,6 +16,15 @@ header{
     }
 
     p{
+        display: flex;
+        align-items: center;
         color: white;
+
+
+        &::before{
+            @include line_style_element;
+            margin-right: 10px;
+        }
     }
+    
 }

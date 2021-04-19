@@ -13,7 +13,17 @@ header .logo img {
   height: 40px;
 }
 header p {
+  display: flex;
+  align-items: center;
   color: white;
+}
+header p::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #39ffbf;
+  margin-right: 10px;
 }
 
 .button {

@@ -1,3 +1,13 @@
+// mixin vari
+
+@mixin line_style_element{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    background-color: $main_element_color;
+}
+
 // container
 
 $container_big: 90%;
