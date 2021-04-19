@@ -1,7 +1,12 @@
 
 
 header{
-    
+    position: relative;
+    height: 800px;
+    background-image: url("../images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 100%;
     background-color: $main_bg_color;
 
     .container{
@@ -13,6 +18,13 @@ header{
         img{
             height: 40px;
         }
+    }
+
+    .hero{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
     }
 
     p{

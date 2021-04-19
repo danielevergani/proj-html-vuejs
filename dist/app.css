@@ -1,8 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 h1, h2 {
   color: #ffffff;
 }
 
+h1 {
+  font-size: 80px;
+}
+
 header {
+  position: relative;
+  height: 800px;
+  background-image: url("../images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 100%;
   background-color: #1f1e38;
 }
 header .container {
@@ -11,6 +31,12 @@ header .container {
 }
 header .logo img {
   height: 40px;
+}
+header .hero {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
 }
 header p {
   display: flex;
