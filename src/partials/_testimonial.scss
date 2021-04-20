@@ -9,19 +9,22 @@
 
         .title__sect{ 
             width: 38%;
-            overflow: hidden;
+            // overflow: hidden;
 
             p{
                 display: flex;
                 align-items: center;
                 position: relative;
-                left: 70%;
+                left: -40%;
                 color: white;
+                margin-right: 300px;
                 
 
                 &::after{
                     @include line_style_element;
-                    margin-left: 15px;
+                    position: absolute;
+                    left: 740px;
+                    
 
                 }
             }

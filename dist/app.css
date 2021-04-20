@@ -312,14 +312,14 @@ header .hero .play__and__button .play i {
 }
 #testimonial .container .title__sect {
   width: 38%;
-  overflow: hidden;
 }
 #testimonial .container .title__sect p {
   display: flex;
   align-items: center;
   position: relative;
-  left: 70%;
+  left: -40%;
   color: white;
+  margin-right: 300px;
 }
 #testimonial .container .title__sect p::after {
   content: "";
@@ -327,7 +327,8 @@ header .hero .play__and__button .play i {
   height: 2px;
   width: 40px;
   background-color: #39ffbf;
-  margin-left: 15px;
+  position: absolute;
+  left: 740px;
 }
 #testimonial .container .title__sect h2 {
   width: 100%;
