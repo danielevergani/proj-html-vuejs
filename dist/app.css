@@ -305,3 +305,72 @@ header p::before {
   font-size: 20px;
   margin: 20px 0;
 }
+
+#blog {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #1f1e38;
+}
+#blog .title__container .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#blog .title__container .container .title__sect p {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#blog .title__container .container .title__sect p:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #39ffbf;
+  margin-left: 15px;
+}
+#blog .container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+#blog .container .blog__element {
+  position: relative;
+  width: calc( 100% / 2 );
+}
+#blog .container .blog__element:first-child {
+  margin-right: 30px;
+}
+#blog .container .blog__element .blog__img {
+  width: 100%;
+}
+#blog .container .blog__element .blog__img img {
+  width: 100%;
+}
+#blog .container .blog__element .blog__text {
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+  width: 70%;
+  background-color: #ffffff;
+  padding: 50px;
+}
+#blog .container .blog__element .blog__text .date__autor {
+  color: #f00e2e;
+}
+#blog .container .blog__element .blog__text .date__autor:first-child {
+  margin-right: 15px;
+}
+#blog .container .blog__element .blog__text h4 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#blog .container .blog__element .blog__text p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
