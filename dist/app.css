@@ -204,22 +204,22 @@ header p::before {
   background-color: #1f1e38;
   padding-top: 300px;
 }
-#experts .container {
+#experts .title__container .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
   margin: auto;
 }
-#experts .container h2 {
+#experts .title__container .container h2 {
   width: 80%;
 }
-#experts .container p {
+#experts .title__container .container p {
   display: flex;
   align-items: center;
   color: white;
 }
-#experts .container p::before {
+#experts .title__container .container p::before {
   content: "";
   display: block;
   height: 2px;
@@ -227,14 +227,31 @@ header p::before {
   background-color: #39ffbf;
   margin-right: 15px;
 }
-#experts .container .carusel__arrow {
+#experts .title__container .container .carusel__arrow {
   display: flex;
   align-items: center;
   color: white;
   font-size: 25px;
 }
-#experts .container .carusel__arrow .arrow i {
+#experts .title__container .container .carusel__arrow .arrow i {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
   margin-right: 5px;
+}
+#experts .container {
+  width: 80%;
+  margin: auto;
+}
+#experts .container .experts__images {
+  display: flex;
+  margin-top: 40px;
+}
+#experts .container .experts__images .experts__images__box {
+  width: calc(( 100% / 3 ) -100px );
+}
+#experts .container .experts__images .experts__images__box:not(:last-child) {
+  margin-right: 30px;
+}
+#experts .container .experts__images .experts__images__box img {
+  width: 100%;
 }

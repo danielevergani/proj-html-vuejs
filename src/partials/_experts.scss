@@ -2,44 +2,73 @@
     background-color: $main_bg_color;
     padding-top: 300px;
 
+    .title__container{
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: $container_big;
+            margin: auto;
+
+            h2{
+                width: 80%;
+            }
+
+            p{
+                display: flex;
+                align-items: center;
+                color: white;
+
+                &::before{
+                    @include line_style_element;
+                    margin-right: 15px;
+                }
+            }
+
+            .carusel__arrow{
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 25px;
+
+                .arrow{
+                    
+                    i{
+                        background-color: rgba(255, 255, 255, 0.2);
+                        padding: 5px;
+                        margin-right: 5px;
+                    }
+
+                }
+            }
+
+        }
+    }
     .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        
         width: $container_big;
         margin: auto;
 
-        h2{
-            width: 80%;
-        }
-
-        p{
+        .experts__images{
             display: flex;
-            align-items: center;
-            color: white;
+            margin-top: 40px;
 
-            &::before{
-                @include line_style_element;
-                margin-right: 15px;
-            }
-        }
+            .experts__images__box{
 
-        .carusel__arrow{
-            display: flex;
-            align-items: center;
-            color: white;
-            font-size: 25px;
-
-            .arrow{
+                width: calc(( 100% / 3 ) -100px );
                 
-                i{
-                    background-color: rgba(255, 255, 255, 0.2);
-                    padding: 5px;
-                    margin-right: 5px;
+                &:not(:last-child){
+                    margin-right: 30px;
                 }
 
+                img{
+                    width: 100%;
+                }
             }
         }
 
+        
     }
+
+
 }
