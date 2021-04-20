@@ -9,6 +9,7 @@
 
         .title__sect{ 
             width: 38%;
+            overflow: hidden;
 
             p{
                 display: flex;
@@ -30,6 +31,16 @@
             }
 
 
+        }
+    }
+    .floating__container{
+        display: flex;
+        background-color: $third_bg_color;
+        width: $floating_container;
+        margin-left: auto;
+
+        .customer__box{
+            width: calc(100% / 3);
         }
     }
 }

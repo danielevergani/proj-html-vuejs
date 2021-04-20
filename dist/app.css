@@ -174,27 +174,27 @@ header p::before {
   font-size: 14px;
   color: #aaaaaa;
 }
-#strategy .container {
+#strategy .floating__container {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   left: 0;
   bottom: -180px;
-  width: 80%;
+  width: 90%;
   height: 250px;
   background-color: #39ffbf;
   color: #1f1e38;
 }
-#strategy .container h3 {
+#strategy .floating__container h3 {
   width: 30%;
   font-size: 30px;
   margin-right: 100px;
 }
-#strategy .container p {
+#strategy .floating__container p {
   width: 30%;
 }
-#strategy .container button {
+#strategy .floating__container button {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -268,6 +268,7 @@ header p::before {
 }
 #customer .container .title__sect {
   width: 38%;
+  overflow: hidden;
 }
 #customer .container .title__sect p {
   display: flex;
@@ -286,4 +287,13 @@ header p::before {
 }
 #customer .container .title__sect h2 {
   width: 100%;
+}
+#customer .floating__container {
+  display: flex;
+  background-color: #ffffff;
+  width: 90%;
+  margin-left: auto;
+}
+#customer .floating__container .customer__box {
+  width: calc(100% / 3);
 }

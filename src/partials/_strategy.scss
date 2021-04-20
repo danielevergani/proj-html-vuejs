@@ -39,14 +39,14 @@
         }
     }
 
-    .container{
+    .floating__container{
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
         left: 0;
         bottom: -180px;
-        width: $container_big;
+        width: $floating_container;
         height: 250px;
         background-color: $second_bg_color;
         color: $cons_title_color;
