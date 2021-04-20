@@ -71,6 +71,11 @@ header p::before {
   color: white;
 }
 
+.third__button {
+  background-color: #1f1e38;
+  color: white;
+}
+
 #consultants {
   position: relative;
   overflow: hidden;
@@ -369,8 +374,25 @@ header p::before {
   margin: 20px 0;
 }
 #blog .container .blog__element .blog__text p {
+  color: #aaaaaa;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+#contact {
+  background-image: url("../images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+}
+#contact .contact__us {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+#contact .contact__us p {
+  width: 70%;
+  color: #aaaaaa;
+  margin: auto;
+  padding: 20px 0;
 }

@@ -5,10 +5,15 @@
 }
 
 .primary__button{
-    background-color: $main_element_color;
+    background-color: $main_element_bg;
 }
 
 .secondary__button{
-    background-color: $element_bg_color;
+    background-color: $second_element_bg_color;
     color: white;
+}
+
+.third__button{
+    background-color: #1f1e38;
+    color:white;
 }

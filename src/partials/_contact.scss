@@ -1,0 +1,18 @@
+#contact{
+
+    background-image: url("../images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+
+    .contact__us{
+        width: 35%;
+        margin: auto;
+        text-align: center;
+        padding: 100px 0;
+
+        p{
+            width: 70%;
+            color:$par_color;
+            margin: auto;
+            padding: 20px 0;
+        }
+    }
+}

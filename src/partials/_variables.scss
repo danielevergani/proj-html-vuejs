@@ -5,7 +5,7 @@
     display: block;
     height: 2px;
     width: 40px;
-    background-color: $main_element_color;
+    background-color: $main_element_bg;
 }
 
 // container
@@ -21,12 +21,15 @@ $main_bg_color: #1f1e38;
 $second_bg_color: #39ffbf;
 $third_bg_color: #ffffff;
 
-$element_bg_color: #f00e2e;
+$main_element_bg: #39ffbf;
+$second_element_bg_color: #f00e2e;
+$third_element_bg_color: #1f1e38;
+
 
 $main_title_color: #ffffff;
 $cons_title_color: #1f1e38;
 
-$main_element_color: #39ffbf;
+
 
 $par_color: #aaaaaa;
 
