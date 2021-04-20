@@ -255,3 +255,35 @@ header p::before {
 #experts .container .experts__images .experts__images__box img {
   width: 100%;
 }
+
+#customer {
+  padding-top: 100px;
+  background-color: #1f1e38;
+}
+#customer .container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  margin: auto;
+}
+#customer .container .title__sect {
+  width: 38%;
+}
+#customer .container .title__sect p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 70%;
+  color: white;
+}
+#customer .container .title__sect p::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #39ffbf;
+  margin-left: 15px;
+}
+#customer .container .title__sect h2 {
+  width: 100%;
+}

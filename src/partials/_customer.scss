@@ -1,0 +1,35 @@
+#customer{
+    padding-top: 100px;
+    background-color: $main_bg_color;
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: $container_big;
+        margin: auto;
+
+        .title__sect{ 
+            width: 38%;
+
+            p{
+                display: flex;
+                align-items: center;
+                position: relative;
+                left: 70%;
+                color: white;
+                
+
+                &::after{
+                    @include line_style_element;
+                    margin-left: 15px;
+
+                }
+            }
+
+            h2{
+                width: 100%;
+            }
+
+
+        }
+    }
+}
