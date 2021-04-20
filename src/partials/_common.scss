@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    background-color: $main_bg_color;
 }
 
 h1, h2{
@@ -27,4 +28,18 @@ a{
 ul{
     list-style: none;
     display: flex;
+}
+
+.over__section{
+    @include background_element;
+    background-size: 68%;
+    background-position-x: 180%;
+    background-position-y: -100%;
+}
+
+.over__section__2{
+    @include background_element;
+    background-size: 60%;
+    background-position-x: -40%;
+    background-position-y: 190%;
 }

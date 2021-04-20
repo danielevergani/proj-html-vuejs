@@ -8,6 +8,12 @@
     background-color: $main_element_bg;
 }
 
+@mixin background_element{
+    background-image: url("../images/Group_7543.svg");
+    background-repeat: no-repeat;
+    
+}
+
 // container
 
 $container_big: 80%;

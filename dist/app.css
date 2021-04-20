@@ -6,6 +6,7 @@
 
 body {
   font-family: "Noto Sans", sans-serif;
+  background-color: #1f1e38;
 }
 
 h1, h2 {
@@ -29,6 +30,22 @@ ul {
   display: flex;
 }
 
+.over__section {
+  background-image: url("../images/Group_7543.svg");
+  background-repeat: no-repeat;
+  background-size: 68%;
+  background-position-x: 180%;
+  background-position-y: -100%;
+}
+
+.over__section__2 {
+  background-image: url("../images/Group_7543.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: -40%;
+  background-position-y: 190%;
+}
+
 header {
   position: relative;
   height: 800px;
@@ -36,7 +53,6 @@ header {
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: 100%;
-  background-color: #1f1e38;
 }
 header .container {
   width: 80%;
@@ -104,6 +120,7 @@ header .hero .play__and__button .play i {
 #consultants {
   position: relative;
   overflow: hidden;
+  background-color: white;
 }
 #consultants .container {
   width: 65%;
@@ -167,7 +184,6 @@ header .hero .play__and__button .play i {
 
 #about {
   display: flex;
-  background-color: #1f1e38;
   position: relative;
 }
 #about .strategy__img {
@@ -231,7 +247,6 @@ header .hero .play__and__button .play i {
 }
 
 #project {
-  background-color: #1f1e38;
   padding-top: 300px;
 }
 #project .title__container .container {
@@ -288,7 +303,6 @@ header .hero .play__and__button .play i {
 
 #testimonial {
   padding-top: 100px;
-  background-color: #1f1e38;
 }
 #testimonial .container {
   display: flex;
@@ -339,7 +353,6 @@ header .hero .play__and__button .play i {
 #blog {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #1f1e38;
 }
 #blog .title__container .container {
   display: flex;
