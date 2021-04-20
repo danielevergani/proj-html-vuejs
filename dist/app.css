@@ -135,18 +135,18 @@ header p::before {
   font-size: 14px;
 }
 
-#strategy {
+#about {
   display: flex;
   background-color: #1f1e38;
   position: relative;
 }
-#strategy .strategy__img {
+#about .strategy__img {
   width: 60%;
 }
-#strategy .strategy__img img {
+#about .strategy__img img {
   width: 100%;
 }
-#strategy .strategy__text {
+#about .strategy__text {
   position: absolute;
   top: 50%;
   left: 60%;
@@ -155,14 +155,14 @@ header p::before {
   padding: 0 120px 0 50px;
   color: #ffffff;
 }
-#strategy .strategy__text h2 {
+#about .strategy__text h2 {
   padding: 20px 0;
 }
-#strategy .strategy__text p:first-child {
+#about .strategy__text p:first-child {
   display: flex;
   align-items: center;
 }
-#strategy .strategy__text p:first-child:before {
+#about .strategy__text p:first-child:before {
   content: "";
   display: block;
   height: 2px;
@@ -170,11 +170,11 @@ header p::before {
   background-color: #39ffbf;
   margin-right: 15px;
 }
-#strategy .strategy__text .strategy__para {
+#about .strategy__text .strategy__para {
   font-size: 14px;
   color: #aaaaaa;
 }
-#strategy .floating__container {
+#about .floating__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,40 +186,40 @@ header p::before {
   background-color: #39ffbf;
   color: #1f1e38;
 }
-#strategy .floating__container h3 {
+#about .floating__container h3 {
   width: 30%;
   font-size: 30px;
   margin-right: 100px;
 }
-#strategy .floating__container p {
+#about .floating__container p {
   width: 30%;
 }
-#strategy .floating__container button {
+#about .floating__container button {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-#experts {
+#project {
   background-color: #1f1e38;
   padding-top: 300px;
 }
-#experts .title__container .container {
+#project .title__container .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
   margin: auto;
 }
-#experts .title__container .container h2 {
+#project .title__container .container h2 {
   width: 80%;
 }
-#experts .title__container .container p {
+#project .title__container .container p {
   display: flex;
   align-items: center;
   color: white;
 }
-#experts .title__container .container p::before {
+#project .title__container .container p::before {
   content: "";
   display: block;
   height: 2px;
@@ -227,57 +227,57 @@ header p::before {
   background-color: #39ffbf;
   margin-right: 15px;
 }
-#experts .title__container .container .carusel__arrow {
+#project .title__container .container .carusel__arrow {
   display: flex;
   align-items: center;
   color: white;
   font-size: 25px;
 }
-#experts .title__container .container .carusel__arrow .arrow i {
+#project .title__container .container .carusel__arrow .arrow i {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
   margin-right: 5px;
 }
-#experts .container {
+#project .container {
   width: 80%;
   margin: auto;
 }
-#experts .container .experts__images {
+#project .container .experts__images {
   display: flex;
   margin-top: 40px;
 }
-#experts .container .experts__images .experts__images__box {
+#project .container .experts__images .experts__images__box {
   width: calc(( 100% / 3 ) -100px );
 }
-#experts .container .experts__images .experts__images__box:not(:last-child) {
+#project .container .experts__images .experts__images__box:not(:last-child) {
   margin-right: 30px;
 }
-#experts .container .experts__images .experts__images__box img {
+#project .container .experts__images .experts__images__box img {
   width: 100%;
 }
 
-#customer {
+#testimonial {
   padding-top: 100px;
   background-color: #1f1e38;
 }
-#customer .container {
+#testimonial .container {
   display: flex;
   flex-direction: row-reverse;
   width: 80%;
   margin: auto;
 }
-#customer .container .title__sect {
+#testimonial .container .title__sect {
   width: 38%;
   overflow: hidden;
 }
-#customer .container .title__sect p {
+#testimonial .container .title__sect p {
   display: flex;
   align-items: center;
   position: relative;
   left: 70%;
   color: white;
 }
-#customer .container .title__sect p::after {
+#testimonial .container .title__sect p::after {
   content: "";
   display: block;
   height: 2px;
@@ -285,23 +285,23 @@ header p::before {
   background-color: #39ffbf;
   margin-left: 15px;
 }
-#customer .container .title__sect h2 {
+#testimonial .container .title__sect h2 {
   width: 100%;
 }
-#customer .floating__container {
+#testimonial .floating__container {
   display: flex;
   background-color: #ffffff;
   width: 90%;
   margin-left: auto;
   margin-top: 40px;
 }
-#customer .floating__container .customer__box {
+#testimonial .floating__container .customer__box {
   width: calc(100% / 3);
 }
-#customer .floating__container .customer__box .customer__box__text {
+#testimonial .floating__container .customer__box .customer__box__text {
   padding: 40px 40px 80px 60px;
 }
-#customer .floating__container .customer__box .customer__box__text h4 {
+#testimonial .floating__container .customer__box .customer__box__text h4 {
   font-size: 20px;
   margin: 20px 0;
 }
