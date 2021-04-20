@@ -1,0 +1,52 @@
+footer{
+    background-color: $main_bg_color;
+
+    .container{
+        width: $container_big;
+        margin: auto;
+        overflow-x: hidden;
+
+        .top__footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+
+            ul{
+                li{
+                    margin-left: 15px;
+                    
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .bottom__footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-bottom: 30px;
+
+            .privacy::before{
+                content: "";
+                display: block;
+                height: 2px;
+                width: 900%;
+                background-color: $par_color;
+                margin-bottom: 30px;
+                
+
+                a{
+                    color: $par_color;
+                }
+            }
+
+            a{
+                color: $par_color;
+            }
+        }
+
+    }
+}

@@ -20,6 +20,15 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
 header {
   position: relative;
   height: 800px;
@@ -395,4 +404,45 @@ header p::before {
   color: #aaaaaa;
   margin: auto;
   padding: 20px 0;
+}
+
+footer {
+  background-color: #1f1e38;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  overflow-x: hidden;
+}
+footer .container .top__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+footer .container .top__footer ul li {
+  margin-left: 15px;
+}
+footer .container .top__footer ul li a {
+  color: white;
+}
+footer .container .bottom__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+footer .container .bottom__footer .privacy::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 900%;
+  background-color: #aaaaaa;
+  margin-bottom: 30px;
+}
+footer .container .bottom__footer .privacy::before a {
+  color: #aaaaaa;
+}
+footer .container .bottom__footer a {
+  color: #aaaaaa;
 }
