@@ -293,7 +293,15 @@ header p::before {
   background-color: #ffffff;
   width: 90%;
   margin-left: auto;
+  margin-top: 40px;
 }
 #customer .floating__container .customer__box {
   width: calc(100% / 3);
+}
+#customer .floating__container .customer__box .customer__box__text {
+  padding: 40px 40px 80px 60px;
+}
+#customer .floating__container .customer__box .customer__box__text h4 {
+  font-size: 20px;
+  margin: 20px 0;
 }

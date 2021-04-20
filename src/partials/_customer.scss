@@ -38,9 +38,20 @@
         background-color: $third_bg_color;
         width: $floating_container;
         margin-left: auto;
+        margin-top: 40px;
 
         .customer__box{
             width: calc(100% / 3);
+
+            .customer__box__text{
+                padding: 40px 40px 80px 60px;
+
+                h4{
+                    font-size: 20px;
+                    margin: 20px 0;
+                }
+            }
         }
+
     }
 }
