@@ -1,5 +1,4 @@
 
-
 header{
     position: relative;
     height: 800px;
@@ -25,18 +24,42 @@ header{
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
-    }
 
-    p{
-        display: flex;
-        align-items: center;
-        color: white;
-
-
-        &::before{
-            @include line_style_element;
-            margin-right: 10px;
+        p{
+            display: flex;
+            align-items: center;
+            color: white;
+    
+    
+            &::before{
+                @include line_style_element;
+                margin-right: 10px;
+            }
         }
+
+        .play__and__button{
+            display: flex;
+            align-items: center;
+
+
+            .play{
+                border: 1px solid white;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                margin-left: 20px;
+                color: $main_element_bg;
+
+                i{
+                    line-height: 50px;
+                }
+            }
+        }
+
+
     }
+
+   
     
 }

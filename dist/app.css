@@ -51,18 +51,34 @@ header .hero {
   transform: translateY(-50%);
   width: 40%;
 }
-header p {
+header .hero p {
   display: flex;
   align-items: center;
   color: white;
 }
-header p::before {
+header .hero p::before {
   content: "";
   display: block;
   height: 2px;
   width: 40px;
   background-color: #39ffbf;
   margin-right: 10px;
+}
+header .hero .play__and__button {
+  display: flex;
+  align-items: center;
+}
+header .hero .play__and__button .play {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  color: #39ffbf;
+}
+header .hero .play__and__button .play i {
+  line-height: 50px;
 }
 
 .button {
