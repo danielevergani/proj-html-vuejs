@@ -67,8 +67,17 @@
 
     &:hover{
         background-size: cover;
+    }
+
+    &:hover .customer__box__text .p__hover{
         color: white;
     }
+
+    &:hover .customer__box__text h4{
+        color: white;
+    }
+    
+
 }
 
 

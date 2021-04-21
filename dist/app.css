@@ -232,6 +232,7 @@ header .hero .play__and__button .play i {
   color: #ffffff;
 }
 #about .strategy__text h2 {
+  font-size: 50px;
   padding: 20px 0;
 }
 #about .strategy__text p:first-child {
@@ -379,6 +380,10 @@ header .hero .play__and__button .play i {
 #testimonial .floating__container .customer__box .customer__box__text h4 {
   font-size: 20px;
   margin: 20px 0;
+}
+
+.customer__box .customer__box__text p {
+  color: #aaaaaa;
 }
 
 #blog {
@@ -593,5 +598,10 @@ footer .to__start__and__chat .chat i {
 }
 .customer__box:hover {
   background-size: cover;
+}
+.customer__box:hover .customer__box__text .p__hover {
+  color: white;
+}
+.customer__box:hover .customer__box__text h4 {
   color: white;
 }
