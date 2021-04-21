@@ -123,6 +123,9 @@ header .hero .play__and__button .play {
   margin-left: 20px;
   color: #39ffbf;
 }
+header .hero .play__and__button .play:hover {
+  color: #f00e2e;
+}
 header .hero .play__and__button .play i {
   line-height: 50px;
 }

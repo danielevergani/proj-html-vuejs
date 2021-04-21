@@ -55,13 +55,15 @@ header{
                 margin-left: 20px;
                 color: $main_element_bg;
 
+                &:hover{
+                    color: $second_element_bg_color;
+                }
+
                 i{
                     line-height: 50px;
                 }
             }
         }
-
-
     }
 
    
