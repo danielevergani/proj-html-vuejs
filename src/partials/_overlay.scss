@@ -1,0 +1,59 @@
+// overlay section project
+
+.experts__images__box{
+    position: relative;
+
+    .overlay__text__wrapper{
+        display: none;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 10%;
+        width: 90%;
+        margin-left: 5%;
+
+        h4{
+            font-size: 25px;
+            color:white;
+        }
+        p{
+            color: #818a91;
+            font-size: 18px;
+        }
+        .overlay__add{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            background-color: $main_bg_color;
+            
+
+            p{
+                color: black;
+                font-size: 30px;
+            }
+
+            &:hover{
+                cursor: pointer;
+            }
+            
+        }
+    }
+
+    &:hover::before{
+        content: "";
+        display: block;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $overlay_bg_color;
+    }
+
+    &:hover .overlay__text__wrapper{
+        display: flex;
+    }
+
+}

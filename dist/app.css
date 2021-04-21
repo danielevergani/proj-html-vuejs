@@ -184,7 +184,7 @@ header .hero .play__and__button .play i {
   margin-top: 50px;
 }
 #consultants .container .consultants__box:nth-child(odd) {
-  margin-right: 350px;
+  margin-right: 30%;
 }
 #consultants .container .consultants__box .consultants__box__logo {
   display: flex;
@@ -534,4 +534,53 @@ footer .to__start__and__chat .chat i {
   line-height: 70px;
   font-size: 30px;
   border-radius: 50%;
+}
+
+.experts__images__box {
+  position: relative;
+}
+.experts__images__box .overlay__text__wrapper {
+  display: none;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  width: 90%;
+  margin-left: 5%;
+}
+.experts__images__box .overlay__text__wrapper h4 {
+  font-size: 25px;
+  color: white;
+}
+.experts__images__box .overlay__text__wrapper p {
+  color: #818a91;
+  font-size: 18px;
+}
+.experts__images__box .overlay__text__wrapper .overlay__add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #1f1e38;
+}
+.experts__images__box .overlay__text__wrapper .overlay__add p {
+  color: black;
+  font-size: 30px;
+}
+.experts__images__box .overlay__text__wrapper .overlay__add:hover {
+  cursor: pointer;
+}
+.experts__images__box:hover::before {
+  content: "";
+  display: block;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f00e2e;
+}
+.experts__images__box:hover .overlay__text__wrapper {
+  display: flex;
 }
