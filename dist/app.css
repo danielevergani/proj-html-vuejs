@@ -46,6 +46,33 @@ ul {
   background-position-y: 190%;
 }
 
+header nav ul li {
+  margin-left: 15px;
+  border-top: 4px solid transparent;
+  padding-top: 20px;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+header nav ul li:hover {
+  border-top: 4px solid white;
+}
+header nav ul li:hover a {
+  color: white;
+}
+
+footer nav ul li {
+  margin-left: 15px;
+}
+footer nav ul li a {
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+footer nav ul li:hover a {
+  color: white;
+}
+
 header {
   position: relative;
   height: 800px;
@@ -55,11 +82,14 @@ header {
   background-position: 100%;
 }
 header .container {
+  display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
 }
 header .logo img {
-  height: 40px;
+  height: 20px;
+  margin-top: 20px;
 }
 header .hero {
   position: absolute;
@@ -450,10 +480,10 @@ footer .container .top__footer {
   align-items: center;
   padding: 50px 0;
 }
-footer .container .top__footer ul li {
+footer .container .top__footer .social li {
   margin-left: 15px;
 }
-footer .container .top__footer ul li a {
+footer .container .top__footer .social li a {
   color: white;
 }
 footer .container .bottom__footer {

@@ -43,3 +43,45 @@ ul{
     background-position-x: -40%;
     background-position-y: 190%;
 }
+
+header{
+    nav{
+        ul{
+            li{
+                margin-left: 15px;
+                border-top: 4px solid transparent;
+                padding-top: 20px;
+                a{
+                    text-transform: uppercase;
+                    color:$par_color;
+                }
+    
+                &:hover{
+                    border-top: 4px solid white;
+                }
+                &:hover a{
+                    color:white;
+                    
+                }
+            }
+        }
+    }
+}
+
+footer{
+    nav{
+        ul{
+            li{
+                margin-left: 15px;
+                a{
+                    text-transform: uppercase;
+                    color:$par_color;
+                }
+                &:hover a{
+                    color:white;
+                    
+                }
+            }
+        }
+    }
+}
