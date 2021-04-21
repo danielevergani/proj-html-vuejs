@@ -18,7 +18,7 @@
                 p{
                     display: flex;
                     align-items: center;
-                    color: white;
+                    color: $general_text_color;
 
                     &:after{
                         @include line_style_element;

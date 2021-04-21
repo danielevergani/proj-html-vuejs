@@ -32,7 +32,7 @@ header{
         p{
             display: flex;
             align-items: center;
-            color: white;
+            color: $general_text_color;
     
     
             &::before{
@@ -47,7 +47,7 @@ header{
 
 
             .play{
-                border: 1px solid white;
+                border: 1px solid $third_bg_color;
                 border-radius: 50%;
                 width: 50px;
                 height: 50px;

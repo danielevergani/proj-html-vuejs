@@ -56,10 +56,10 @@ header nav ul li a {
   color: #aaaaaa;
 }
 header nav ul li:hover {
-  border-top: 4px solid white;
+  border-top: 4px solid #ffffff;
 }
 header nav ul li:hover a {
-  color: white;
+  color: #ffffff;
 }
 
 footer nav ul li {
@@ -70,7 +70,7 @@ footer nav ul li a {
   color: #aaaaaa;
 }
 footer nav ul li:hover a {
-  color: white;
+  color: #ffffff;
 }
 
 header {
@@ -100,7 +100,7 @@ header .hero {
 header .hero p {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 header .hero p::before {
   content: "";
@@ -115,7 +115,7 @@ header .hero .play__and__button {
   align-items: center;
 }
 header .hero .play__and__button .play {
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -139,18 +139,18 @@ header .hero .play__and__button .play i {
 
 .secondary__button {
   background-color: #f00e2e;
-  color: white;
+  color: #ffffff;
 }
 
 .third__button {
   background-color: #1f1e38;
-  color: white;
+  color: #ffffff;
 }
 
 #consultants {
   position: relative;
   overflow: hidden;
-  background-color: white;
+  background-color: #ffffff;
 }
 #consultants .container {
   width: 65%;
@@ -198,7 +198,7 @@ header .hero .play__and__button .play i {
 #consultants .container .consultants__box .consultants__box__logo i {
   margin: auto;
   font-size: 30px;
-  color: white;
+  color: #ffffff;
 }
 #consultants .container .consultants__box .consultants__text {
   margin-top: 10px;
@@ -293,7 +293,7 @@ header .hero .play__and__button .play i {
 #project .title__container .container p {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 #project .title__container .container p::before {
   content: "";
@@ -306,7 +306,7 @@ header .hero .play__and__button .play i {
 #project .title__container .container .carusel__arrow {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
   font-size: 25px;
 }
 #project .title__container .container .carusel__arrow .arrow i {
@@ -349,7 +349,7 @@ header .hero .play__and__button .play i {
   align-items: center;
   position: relative;
   left: -40%;
-  color: white;
+  color: #ffffff;
   margin-right: 300px;
 }
 #testimonial .container .title__sect p::after {
@@ -400,7 +400,7 @@ header .hero .play__and__button .play i {
 #blog .title__container .container .title__sect p {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 #blog .title__container .container .title__sect p:after {
   content: "";
@@ -489,7 +489,7 @@ footer .container .top__footer .social li {
   margin-left: 15px;
 }
 footer .container .top__footer .social li a {
-  color: white;
+  color: #ffffff;
 }
 footer .container .bottom__footer {
   display: flex;
@@ -524,7 +524,7 @@ footer .to__start__and__chat .start {
 footer .to__start__and__chat .start a i {
   width: 40px;
   height: 40px;
-  background-color: white;
+  background-color: #ffffff;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
@@ -591,7 +591,7 @@ footer .to__start__and__chat .chat i {
 }
 
 .customer__box {
-  background-color: white;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: 0%;
   background-position-y: 20%;
@@ -600,8 +600,8 @@ footer .to__start__and__chat .chat i {
   background-size: cover;
 }
 .customer__box:hover .customer__box__text .p__hover {
-  color: white;
+  color: #ffffff;
 }
 .customer__box:hover .customer__box__text h4 {
-  color: white;
+  color: #ffffff;
 }

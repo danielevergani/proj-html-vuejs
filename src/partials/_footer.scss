@@ -17,7 +17,7 @@ footer{
                     margin-left: 15px;
                     
                     a{
-                        color: white;
+                        color: $general_text_color;
                     }
                 }
             }
@@ -64,7 +64,7 @@ footer{
                 i{
                     width: 40px;
                     height: 40px;   
-                    background-color: white;
+                    background-color: $third_bg_color;
                     text-align: center;
                     line-height: 40px;
                     font-size: 20px;

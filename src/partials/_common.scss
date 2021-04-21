@@ -57,10 +57,10 @@ header{
                 }
     
                 &:hover{
-                    border-top: 4px solid white;
+                    border-top: 4px solid $third_bg_color;
                 }
                 &:hover a{
-                    color:white;
+                    color:$general_text_color;
                     
                 }
             }
@@ -78,7 +78,7 @@ footer{
                     color:$par_color;
                 }
                 &:hover a{
-                    color:white;
+                    color:$general_text_color;
                     
                 }
             }

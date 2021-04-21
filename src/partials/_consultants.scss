@@ -1,7 +1,7 @@
 #consultants{
     position: relative;
     overflow: hidden;
-    background-color: white;
+    background-color: $third_bg_color;
     .container{
         width: $container_small;
         margin: auto;
@@ -46,7 +46,7 @@
                 i{
                     margin: auto;
                     font-size: 30px;
-                    color: white;
+                    color: $general_text_color;
                 }
             }
             .consultants__text{
