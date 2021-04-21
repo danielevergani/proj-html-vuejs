@@ -183,12 +183,19 @@
                             <div class="title__sect">
                                 <p>TESTIMONIAL</p>
                                 <h2>
-                                    WHAT'S THE CUSTOMER SAY ABOUT AOUR WORK
+                                    WHAT'S THE CUSTOMER SAY ABOUT OUR WORK
                                 </h2>
                             </div>
                         </div>
                         <div class="floating__container">
-                            <div class="customer__box">
+                            <div  v-for="img in background" v-bind:style="{ 'backgroundImage': 'url' + '(' + img + ')' }" class="customer__box">
+                                <div class="customer__box__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi assumenda veniam aperiam aliquam, eum inventore officia est ad laborum? Sapiente ipsam exercitationem velit necessitatibus illo consequuntur consequatur, quo fugiat explicabo.</p>
+                                    <h4>Vera Duncan</h4>
+                                    <p><small>Amazon Inc.</small></p>
+                                </div>
+                            </div> 
+                            <!-- <div class="customer__box">
                                 <div class="customer__box__text">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi assumenda veniam aperiam aliquam, eum inventore officia est ad laborum? Sapiente ipsam exercitationem velit necessitatibus illo consequuntur consequatur, quo fugiat explicabo.</p>
                                     <h4>Vera Duncan</h4>
@@ -201,14 +208,7 @@
                                     <h4>Vera Duncan</h4>
                                     <p><small>Amazon Inc.</small></p>
                                 </div>
-                            </div> 
-                            <div class="customer__box">
-                                <div class="customer__box__text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi assumenda veniam aperiam aliquam, eum inventore officia est ad laborum? Sapiente ipsam exercitationem velit necessitatibus illo consequuntur consequatur, quo fugiat explicabo.</p>
-                                    <h4>Vera Duncan</h4>
-                                    <p><small>Amazon Inc.</small></p>
-                                </div>
-                            </div> 
+                            </div>  -->
                         </div>
 
                     </section>

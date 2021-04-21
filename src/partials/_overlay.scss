@@ -55,5 +55,20 @@
     &:hover .overlay__text__wrapper{
         display: flex;
     }
-
 }
+
+// overlay section testimonial
+
+.customer__box{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 0%;
+    background-position-y: 20%;
+
+    &:hover{
+        background-size: cover;
+        color: white;
+    }
+}
+
+

@@ -365,16 +365,16 @@ header .hero .play__and__button .play i {
 }
 #testimonial .floating__container {
   display: flex;
-  background-color: #ffffff;
   width: 90%;
   margin-left: auto;
   margin-top: 40px;
 }
 #testimonial .floating__container .customer__box {
+  position: relative;
   width: calc(100% / 3);
 }
 #testimonial .floating__container .customer__box .customer__box__text {
-  padding: 40px 40px 80px 60px;
+  padding: 60px 40px 100px 60px;
 }
 #testimonial .floating__container .customer__box .customer__box__text h4 {
   font-size: 20px;
@@ -583,4 +583,15 @@ footer .to__start__and__chat .chat i {
 }
 .experts__images__box:hover .overlay__text__wrapper {
   display: flex;
+}
+
+.customer__box {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 0%;
+  background-position-y: 20%;
+}
+.customer__box:hover {
+  background-size: cover;
+  color: white;
 }
