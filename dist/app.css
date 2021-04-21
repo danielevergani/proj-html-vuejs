@@ -136,15 +136,27 @@ header .hero .play__and__button .play i {
 .primary__button {
   background-color: #39ffbf;
 }
+.primary__button:hover {
+  background-color: #f00e2e;
+  color: #ffffff;
+}
 
 .secondary__button {
   background-color: #f00e2e;
   color: #ffffff;
 }
+.secondary__button:hover {
+  background-color: #ffffff;
+  color: #f00e2e;
+}
 
 .third__button {
   background-color: #1f1e38;
   color: #ffffff;
+}
+.third__button:hover {
+  background-color: #39ffbf;
+  color: #1f1e38;
 }
 
 #consultants {
