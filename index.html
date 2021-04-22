@@ -190,11 +190,11 @@
                             </div>
                         </div>
                         <div class="floating__container">
-                            <div  v-for="img in background" v-bind:style="{ 'backgroundImage': 'url' + '(' + img + ')' }" class="customer__box">
+                            <div  v-for="testimonial in testimonials" v-bind:style="{ 'backgroundImage': 'url' + '(' + testimonial.img + ')' }" class="customer__box">
                                 <div class="customer__box__text">
-                                    <p class="p__hover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi assumenda veniam aperiam aliquam, eum inventore officia est ad laborum? Sapiente ipsam exercitationem velit necessitatibus illo consequuntur consequatur, quo fugiat explicabo.</p>
-                                    <h4>Vera Duncan</h4>
-                                    <p class="p__hover"><small>Amazon Inc.</small></p>
+                                    <p class="p__hover">{{testimonial.dichiarazione}}</p>
+                                    <h4>{{testimonial.nome}}</h4>
+                                    <p class="p__hover"><small>{{testimonial.azienda}}</small></p>
                                 </div>
                             </div> 
                             <!-- <div class="customer__box">
