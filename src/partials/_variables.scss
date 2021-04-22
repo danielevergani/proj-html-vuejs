@@ -13,6 +13,18 @@
     background-repeat: no-repeat;
 }
 
+@mixin overlay_color_for_img{
+    content: "";
+    display: block;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $overlay_bg_color;
+}
+
 // container
 
 $container_big: 80%;
