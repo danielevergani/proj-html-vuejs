@@ -46,33 +46,6 @@ ul {
   background-position-y: 190%;
 }
 
-header nav ul li {
-  margin-left: 15px;
-  border-top: 4px solid transparent;
-  padding-top: 20px;
-}
-header nav ul li a {
-  text-transform: uppercase;
-  color: #aaaaaa;
-}
-header nav ul li:hover {
-  border-top: 4px solid #ffffff;
-}
-header nav ul li:hover a {
-  color: #ffffff;
-}
-
-footer nav ul li {
-  margin-left: 15px;
-}
-footer nav ul li a {
-  text-transform: uppercase;
-  color: #aaaaaa;
-}
-footer nav ul li:hover a {
-  color: #ffffff;
-}
-
 header {
   position: relative;
   height: 800px;
@@ -128,6 +101,33 @@ header .hero .play__and__button .play:hover {
 }
 header .hero .play__and__button .play i {
   line-height: 50px;
+}
+
+header nav ul li {
+  margin-left: 15px;
+  border-top: 4px solid transparent;
+  padding-top: 20px;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+header nav ul li:hover {
+  border-top: 4px solid #ffffff;
+}
+header nav ul li:hover a {
+  color: #ffffff;
+}
+
+footer nav ul li {
+  margin-left: 15px;
+}
+footer nav ul li a {
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+footer nav ul li:hover a {
+  color: #ffffff;
 }
 
 .button {

@@ -1,0 +1,41 @@
+header{
+    nav{
+        ul{
+            li{
+                margin-left: 15px;
+                border-top: 4px solid transparent;
+                padding-top: 20px;
+                a{
+                    text-transform: uppercase;
+                    color:$par_color;
+                }
+    
+                &:hover{
+                    border-top: 4px solid $third_bg_color;
+                }
+                &:hover a{
+                    color:$general_text_color;
+                    
+                }
+            }
+        }
+    }
+}
+
+footer{
+    nav{
+        ul{
+            li{
+                margin-left: 15px;
+                a{
+                    text-transform: uppercase;
+                    color:$par_color;
+                }
+                &:hover a{
+                    color:$general_text_color;
+                    
+                }
+            }
+        }
+    }
+}
