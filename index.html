@@ -137,7 +137,7 @@
                         </div>
                         <div class="container">
                             <div class="experts__images">
-                                <div v-for="(element, index) in images" class="experts__images__box">
+                                <div v-for="(element, index) in images" v-if="index <= 2"class="experts__images__box">
                                     <img :src="element" :alt="index">
                                     <div class="overlay__text__wrapper">
                                         <div class="overlay__text">
