@@ -358,6 +358,23 @@ header .hero .play__and__button .play i {
 
 #testimonial {
   padding-top: 100px;
+  position: relative;
+}
+#testimonial .section__identificator {
+  width: 50%;
+  color: #ffffff;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#testimonial .section__identificator::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: #ffc318;
+  margin-right: 190px;
 }
 #testimonial .container {
   display: flex;
@@ -368,25 +385,9 @@ header .hero .play__and__button .play i {
 #testimonial .container .title__sect {
   width: 38%;
 }
-#testimonial .container .title__sect p {
-  display: flex;
-  align-items: center;
-  position: relative;
-  left: -40%;
-  color: #ffffff;
-  margin-right: 300px;
-}
-#testimonial .container .title__sect p::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 40px;
-  background-color: #ffc318;
-  position: absolute;
-  left: 740px;
-}
 #testimonial .container .title__sect h2 {
   width: 100%;
+  margin-top: 20px;
 }
 #testimonial .floating__container {
   display: flex;

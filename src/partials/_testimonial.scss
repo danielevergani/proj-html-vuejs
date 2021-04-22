@@ -1,6 +1,21 @@
 #testimonial{
     padding-top: 100px;
+    position: relative;
     // background-color: $main_bg_color;
+
+    .section__identificator{
+        width: 50%;
+        color:$general_text_color;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &::after{
+            @include line_style_element;
+            margin-right: 190px;
+        }
+    }
     .container{
         display: flex;
         flex-direction: row-reverse;
@@ -11,26 +26,27 @@
             width: 38%;
             // overflow: hidden;
 
-            p{
-                display: flex;
-                align-items: center;
-                position: relative;
-                left: -40%;
-                color: $general_text_color;
-                margin-right: 300px;
+            // p{
+            //     display: flex;
+            //     align-items: center;
+            //     position: absolute;
+            //     right: 30%;
+            //     color: $general_text_color;
+            //     margin-right: 300px;
                 
 
-                &::after{
-                    @include line_style_element;
-                    position: absolute;
-                    left: 740px;
+            //     &::after{
+            //         @include line_style_element;
+            //         position: absolute;
+            //         right: -6%;
                     
 
-                }
-            }
+            //     }
+            // }
 
             h2{
                 width: 100%;
+                margin-top: 20px;
             }
 
 
