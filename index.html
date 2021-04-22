@@ -131,14 +131,14 @@
                                 </div>
                                 <div class="carusel__arrow">
                                     <div class="arrow left__arrow"><i class="fas fa-long-arrow-alt-left"></i></div>
-                                    <div class="arrow right__arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                                    <div @click="nextImg" class="arrow right__arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
                                 </div>
                             </div>
                         </div>
                         <div class="container">
                             <div class="experts__images">
-                                <div class="experts__images__box">
-                                    <img src="images/DRY-1-790x592.jpg" alt="dry">
+                                <div v-for="(element, index) in images" class="experts__images__box">
+                                    <img :src="element" :alt="index">
                                     <div class="overlay__text__wrapper">
                                         <div class="overlay__text">
                                             <h4>Purinky products</h4>
@@ -149,7 +149,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="experts__images__box">
+                                <!-- <div class="experts__images__box">
                                     <img src="images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="sponsorship">
                                     <div class="overlay__text__wrapper">
                                         <div class="overlay__text">
@@ -172,7 +172,7 @@
                                             <p>+</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
