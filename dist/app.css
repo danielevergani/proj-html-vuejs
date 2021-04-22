@@ -324,6 +324,9 @@ header .hero .play__and__button .play i {
   color: #ffffff;
   font-size: 25px;
 }
+#project .title__container .container .carusel__arrow .arrow {
+  cursor: pointer;
+}
 #project .title__container .container .carusel__arrow .arrow i {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
@@ -336,7 +339,8 @@ header .hero .play__and__button .play i {
 #project .container .experts__images {
   display: flex;
   margin-top: 40px;
-  height: 370px;
+  height: 400px;
+  overflow: hidden;
 }
 #project .container .experts__images .experts__images__box {
   width: calc( (100% / 3) - 20px );
