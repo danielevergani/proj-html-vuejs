@@ -176,6 +176,7 @@ header .hero .play__and__button .play i {
   display: flex;
   align-items: center;
   color: #1f1e38;
+  margin-right: 10px;
 }
 #consultants .container h3::after {
   content: "";
@@ -184,9 +185,9 @@ header .hero .play__and__button .play i {
   width: 40px;
   background-color: #ffc318;
   height: 3px;
+  width: 1000%;
   position: absolute;
-  left: 670px;
-  width: 100%;
+  margin-left: 340px;
 }
 #consultants .container .consultants__possibility {
   display: flex;
@@ -195,6 +196,7 @@ header .hero .play__and__button .play i {
 }
 #consultants .container .consultants__box {
   display: flex;
+  align-items: flex-start;
   width: 35%;
   margin-top: 50px;
 }
@@ -204,14 +206,13 @@ header .hero .play__and__button .play i {
 #consultants .container .consultants__box .consultants__box__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 30px;
-  width: 200px;
-  height: 60px;
   background-color: #f00e2e;
   border-radius: 50%;
 }
 #consultants .container .consultants__box .consultants__box__logo i {
-  margin: auto;
+  margin: 15px 15px;
   font-size: 30px;
   color: #ffffff;
 }

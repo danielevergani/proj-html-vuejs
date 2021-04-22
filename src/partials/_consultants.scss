@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             color: $cons_title_color;
+            margin-right: 10px;
         }
         h3::after{
             @include line_style_element;
             height: 3px;
+            width: 1000%;
             position: absolute;
-            left: 670px;
-            width: 100%;
+            margin-left: 340px;
         }
 
         .consultants__possibility{
@@ -28,6 +29,7 @@
         
         .consultants__box{
             display: flex;
+            align-items: flex-start;
             width: 35%;
             margin-top: 50px;
 
@@ -38,13 +40,12 @@
             .consultants__box__logo{
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 margin-right: 30px;
-                width: 200px;
-                height: 60px;
                 background-color: $second_element_bg_color;
                 border-radius: 50%;
                 i{
-                    margin: auto;
+                    margin: 15px 15px;
                     font-size: 30px;
                     color: $general_text_color;
                 }
